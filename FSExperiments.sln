@@ -1,8 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MVC", "MVC\MVC.fsproj", "{7FCBE08A-B5B8-4FF5-B074-7C39CDE1F8A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DSL", "DSL", "{6B9CD9F0-5CA1-4877-8929-18B021D4192C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RobotControl", "RobotControl\RobotControl.fsproj", "{55B5DF98-43B3-4CB4-B7E0-179BFF056C5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FCBE08A-B5B8-4FF5-B074-7C39CDE1F8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCBE08A-B5B8-4FF5-B074-7C39CDE1F8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCBE08A-B5B8-4FF5-B074-7C39CDE1F8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCBE08A-B5B8-4FF5-B074-7C39CDE1F8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B5DF98-43B3-4CB4-B7E0-179BFF056C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B5DF98-43B3-4CB4-B7E0-179BFF056C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B5DF98-43B3-4CB4-B7E0-179BFF056C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B5DF98-43B3-4CB4-B7E0-179BFF056C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55B5DF98-43B3-4CB4-B7E0-179BFF056C5F} = {6B9CD9F0-5CA1-4877-8929-18B021D4192C}
 	EndGlobalSection
 EndGlobal
